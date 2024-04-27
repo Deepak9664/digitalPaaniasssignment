@@ -1,4 +1,25 @@
 # digitalPaaniasssignment
+digitalPaaniasssignment/
+│
+├── controllers/
+│   ├── bookController.js
+│   └── userController.js
+│
+├── middleware/
+│   └── authenticateUser.js
+│
+├── routes/
+│   ├── bookRoutes.js
+│   └── userRoutes.js
+├── app.js
+├── package.json
+└── README.md
+controllers/: Contains modules responsible for handling business logic.
+middleware/: Contains custom middleware functions.
+routes/: Defines route handlers for different API endpoints.
+app.js: Entry point of the application.
+package.json: Manifest file for the project.
+
 ## Tech Stack
 
 - Node.js: A JavaScript runtime environment for building server-side applications.
